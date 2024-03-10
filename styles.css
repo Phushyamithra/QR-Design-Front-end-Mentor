@@ -1,0 +1,42 @@
+body{
+    background-color:hsl(212, 45%, 89%);
+}
+.card{ 
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the shadow as needed */
+    background-color: white;
+    border-radius: 25px; /* Adjust the border radius as needed */
+    font-family: 'Outfit';
+    text-align: center;
+    padding: 1em;
+    
+}
+
+.card:hover{
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.3); /* Adjust the shadow as needed */
+    transition: transform 1s ease;
+}
+
+.card > img{
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.card h4 {
+    padding: 0;
+    margin-top: 1em;
+    font-size: 19px;
+    font-weight: 700;
+}
+.card > p {
+    font-size: 15px;
+    font-weight: 400;
+    color : rgba(0, 0, 0, 0.3);
+}
+
